@@ -7,7 +7,7 @@ def color_frequencies(*colors):
             frequencies[color] = 1
     return frequencies
 
-#INPUT VERSION
+#INPUT VERSION, can't be tuple, as it is immutable
 colors = []
 while True:
     try:
